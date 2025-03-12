@@ -113,7 +113,7 @@ pip freeze > requirements.txt
 ## **Usage**
 - To activate the virtual environment:
   ```bash
-  source my_env/bin/activate
+  source GP_2025/bin/activate
   ```
 - To deactivate the virtual environment:
   ```bash
