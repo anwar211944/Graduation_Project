@@ -14,7 +14,7 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Load the model
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('/workspaces/Graduation_Project/AI/classifier/deployment/model.h5')
 
 # Class labels
 CLASSES = [
