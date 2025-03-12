@@ -1,0 +1,2 @@
+*.so filter=lfs diff=lfs merge=lfs -text
+AI/GP_2025/lib/python3.10/site-packages/tensorflow/libtensorflow_cc.so.2 filter=lfs diff=lfs merge=lfs -text
